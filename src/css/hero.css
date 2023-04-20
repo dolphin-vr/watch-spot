@@ -1,0 +1,62 @@
+.hero-bgr {
+   width: 100%;
+   background-color: var(--black);
+}
+.slider-btn{
+   width: 32px;
+   height: 32px;
+   background-color: transparent;
+
+
+   border: 1px solid var(--white);
+   border-radius: 8px;
+
+}
+
+.slider-go{
+   width: 7px;
+   height: 7px;
+}
+
+@media screen and (min-width: 375px) {
+   .conteiner {
+      width: 375px;
+      padding: 122px 20px 40px;
+   }
+
+   .title-hero {
+      width: 335px;
+      margin-bottom: 60px;
+      margin-left: auto;
+      margin-right: auto;
+
+      font-family: 'Epilogue';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 38px;
+      line-height: 1.05;
+
+      color: var(--white);
+   }
+
+   .slide-bcg{
+      background-color: var(--dark);
+      width: 266px;
+      margin-bottom: 20px;
+      }
+   .text-hero{
+      width: 248px;
+      margin-bottom: 40px;
+
+      font-family: 'Epilogue';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: calc(18/14)   ;
+     
+
+      letter-spacing: -0.02em;
+
+      color: var(--white);
+   }
+}
