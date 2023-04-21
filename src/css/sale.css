@@ -1,13 +1,34 @@
-.section-sale {
-   max-width: 375px;
+/* .section-sale {
    padding-top: 80px;
    padding-bottom: 80px;
+   margin: auto;
 
-}
+} */
 .container {
-    padding-left: 20px;
-    padding-right: 20px;
-    outline: solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    /* outline: solid red; */
+}
+    /* @media screen and (min-width: 375px) {
+    .container {
+        width: 375px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+} */
+.gallery-sale {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 20px;
+    margin: auto;
+}
+.gallery-sale-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 .title-sale {
     font-family: 'Epilogue';
@@ -17,9 +38,19 @@
     letter-spacing: -0.02em;
     color: #141414;
 }
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+.title-by-police,.title-information {
+    margin-bottom: 8px;
+}
+
 .title-by-police {
     font-family: 'Epilogue';
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 24px;
     line-height: 1.0;
     letter-spacing: -0.02em;
@@ -28,20 +59,19 @@
 .title-information {
     position: relative;
     font-family: 'Epilogue';
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 18px;
     line-height: 1.33;
     letter-spacing: -0.02em;
     text-transform: uppercase;
     color: #141414;
 }
+
 .title-information::before {
     position: absolute;
     content: "";
-    width: 335px;
+    width: 100%;
     height: 40px;
-    left: 0px;
-    top: 0px;
     border-top: 1px solid #141414;
 }
 .title-information::after {
@@ -49,41 +79,66 @@
     content: "";
     width: 16px;
     height: 0px;
-    left: 0px;
-    top: 0px;
+    right: 0px;
+    top: 11px;
     border: 1px solid #141414;
 }
-.prodact-tag {
+.information {
+    width: 100%;
+}
+
+.product-tag {
     font-family: 'Epilogue';
     font-style: normal;
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 14px;
     line-height: 1.29;
     letter-spacing: -0.02em;
     color: rgba(20, 20, 20, 0.5);
+    margin-bottom: 16px;
 }
 .price {
+    display: flex;
+    align-items: center;
+    gap: 8px;
     font-family: 'Neue Montreal';
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 18px;
     line-height: 1.33;
     letter-spacing: -0.02em;
     color: #141414;
 }
-.prodact-information {
+.product-information {
     font-family: 'Epilogue';
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 14px;
     line-height: 1.29;
     letter-spacing: -0.01em;
     color: rgba(20, 20, 20, 0.5);
+   
 }
 .price-low {
     font-family: 'Epilogue';
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: -0.02em;
     text-decoration-line: line-through;
     color: rgba(20, 20, 20, 0.5);
+}
+/* =====================media-tablet================== */
+@media screen and (min-width: 768px) {
+
+.title-sale {
+    font-size: 40px;
+    line-height: 1.1;
+    color: #1E2827;
+}
+
+
+}
+
+/* ======================media-desktop================= */
+@media screen and (min-width: 1280px) {
+
 }
