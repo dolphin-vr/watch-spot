@@ -1,0 +1,89 @@
+.section-sale {
+   max-width: 375px;
+   padding-top: 80px;
+   padding-bottom: 80px;
+
+}
+.container {
+    padding-left: 20px;
+    padding-right: 20px;
+    outline: solid red;
+}
+.title-sale {
+    font-family: 'Epilogue';
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    color: #141414;
+}
+.title-by-police {
+    font-family: 'Epilogue';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.0;
+    letter-spacing: -0.02em;
+    color: #141414;
+}
+.title-information {
+    position: relative;
+    font-family: 'Epilogue';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #141414;
+}
+.title-information::before {
+    position: absolute;
+    content: "";
+    width: 335px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+    border-top: 1px solid #141414;
+}
+.title-information::after {
+    position: absolute;
+    content: "";
+    width: 16px;
+    height: 0px;
+    left: 0px;
+    top: 0px;
+    border: 1px solid #141414;
+}
+.prodact-tag {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: rgba(20, 20, 20, 0.5);
+}
+.price {
+    font-family: 'Neue Montreal';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.02em;
+    color: #141414;
+}
+.prodact-information {
+    font-family: 'Epilogue';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.01em;
+    color: rgba(20, 20, 20, 0.5);
+}
+.price-low {
+    font-family: 'Epilogue';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    text-decoration-line: line-through;
+    color: rgba(20, 20, 20, 0.5);
+}
