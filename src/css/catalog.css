@@ -18,15 +18,19 @@
 }
 
 .catalog-card {
-   position: relative;
    max-width: 336px;
-   padding-top: 43px;
+}
+
+.picture-wrap {
+   position: relative;
    overflow: hidden;
+   padding-top: 43px;
+   padding-bottom: 43px;
 }
 
 .catalog-item-picture {
    display: block;
-   margin: 0 auto 57px auto;
+   margin: 0 auto;
    width: 276px;
    height: 274px;
 }
@@ -58,9 +62,12 @@
    font-weight: 400;
 }
 
+.catalog-title-wrap {
+   padding-top: 14px;
+}
+
 .catalog-btn {
    display: block;
-   margin-top: 40px;
    margin-left: auto;
    border: none;
    border-radius: 8px;
@@ -146,11 +153,19 @@
    .catalog-btn {
       padding: 18px 35px;
    }
+
+   .catalog-item:not(:last-child) {
+      margin-bottom: 0;
+   }
 }
 
 @media screen and (min-width: 1280px) {
    .container {
       width: 1280px;
+   }
+
+   .section-title {
+      margin-bottom: 64px;
    }
 
    .catalog-card {
@@ -159,5 +174,14 @@
 
    .catalog-list {
       gap: 64px 24px;
+   }
+
+   .picture-wrap {
+      padding-top: 26px;
+      padding-bottom: 25px;
+   }
+
+   .catalog-item:not(:nth-child(-n + 8)) {
+      margin-bottom: 80px;
    }
 }
