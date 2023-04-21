@@ -12,6 +12,7 @@
 :root {
    /* dark green */
    --dark: #1e2827;
+   --blacky: #141414;
 
    --black: #000000;
    --white: #ffffff;
@@ -33,4 +34,3 @@
    -moz-osx-font-smoothing: grayscale;
    -webkit-text-size-adjust: 100%;
 }
-
