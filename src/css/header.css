@@ -16,7 +16,7 @@
 .header-logo {
    display: flex;
    align-items: center;
-   font-family: 'Epilogue' sans-serif;
+   font-family: 'Epilogue', sans-serif;
    font-style: normal;
    font-weight: 400;
    font-size: 12px;
@@ -75,7 +75,7 @@
    gap: 14px;
 }
 .mobile-list__text {
-   font-family: 'Epilogue' sans-serif;
+   font-family: 'Epilogue', sans-serif;
    font-style: normal;
    font-weight: 400;
    font-size: 14px;
@@ -136,7 +136,7 @@
       gap: 40px;
    }
    .header-list__text {
-      font-family: 'Epilogue' sans-serif;
+      font-family: 'Epilogue', sans-serif;
       font-style: normal;
       font-weight: 400;
       font-size: 9px;
