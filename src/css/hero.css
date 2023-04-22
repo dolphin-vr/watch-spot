@@ -50,25 +50,38 @@
    background-color: var(--black);
 }
 .slider-btn{
+   display: flex;
+   justify-content: center;
+   align-items: center;
    
    width: 32px;
    height: 32px;
    background-color: transparent;
 
-   border: 1px solid var(--white);
+   border: 1px solid rgba(255, 255, 255, 0.5);;
    border-radius: 8px;
+}
+.nav-slider{
+   display: flex;
 }
 
 .left-btn{
    margin-right: 8px;
 }
 
+.slider-btn:hover,
+.slider-btn:focus{
+   border: 2px solid var(--white);
+}
+.slider-go:hover,
+.slider-go:focus{
+   fill: var(--white);
+}
+
 
 .slider-go{
-   
    width: 20px;
    height: 25px;
-   
 }
 
 .text-line{
