@@ -1,0 +1,261 @@
+footer {
+   box-sizing: border-box;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   margin: 0;
+}
+ul {
+   padding-left: 0;
+   margin: 0;
+}
+li {
+   list-style: none;
+}
+button {
+   cursor: pointer;
+}
+address {
+   font-style: normal;
+}
+.footer-section .container {
+gap: 0;
+align-items: normal;
+}
+body {
+   margin: 0;
+}
+.link {
+   text-decoration: none;
+}
+.footer-section {
+   background-color: var(--dark);
+   padding-top: 40px;
+   padding-bottom: 20px;
+}
+.logo-svg {
+   width: 40px;
+   height: 40px;
+   margin-bottom: 40px;
+}
+.nav-link {
+   color: var(--white);
+   font-family: 'Epilogue';
+   font-size: 14px;
+   line-height: 1.29;
+   letter-spacing: -0.02em;
+   text-transform: uppercase;
+}
+.address-link {
+   color: var(--white);
+}
+.logo-svg {
+   fill: var(--white);
+}
+.terms-link {
+   color: var(--white);
+}
+.footer-navigate {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+.footer-address {
+   display: flex;
+   flex-direction: column;
+}
+.wrap {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+.li {
+   margin-bottom: 20px;
+}
+.terms-list-wrap {
+   display: flex;
+   gap: 14px;
+}
+.tablet-wrap a:nth-child(2) {
+   margin-bottom: 20px;
+}
+.termins-list li:not(:first-child) {
+   margin-top: 14px;
+}
+.footer-addresses-list li:last-child .address-link {
+   width: 141px;
+   display: block;
+}
+.address-link {
+   width: 181px;
+   font-family: 'Epilogue';
+   font-size: 14px;
+   line-height: 1.29;
+   letter-spacing: -0.02em;
+   color: var(--white);
+}
+.soc-list {
+   display: flex;
+   gap: 14px;
+   margin-top: 40px;
+   margin-bottom: 80px;
+}
+.soc-svg {
+   display: block;
+   width: 40px;
+   height: 40px;
+   fill: rgba(255, 255, 255, 0.708);
+}
+.nav-links-list {
+   display: flex;
+   flex-direction: column;
+   gap: 14px;
+}
+.soc-item {
+   width: 40px;
+   height: 40px;
+}
+.soc-link {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   height: 100%;
+   border: 1px solid rgba(255, 255, 255, 0.1);
+   border-radius: 10px;
+}
+.terms-link {
+   font-family: 'Epilogue';
+   font-size: 12px;
+   line-height: 1.17;
+   letter-spacing: -0.02em;
+   color: #c6cdd1;
+}
+.wrap-for-mob {
+   display: flex;
+   justify-content: space-between;
+}
+.tablet-wrap {
+   display: flex;
+    flex-direction: column;
+}
+.gasagasgfasga {
+   display: flex;
+   justify-content: space-between;
+}
+@media screen and (min-width: 375px) {
+   .footer-container {
+      width: 100%;
+      padding-left: 20px;
+      padding-right: 20px;
+      margin: 0 auto;
+   }
+}
+@media screen and (min-width: 768px) {
+   .logo-svg {
+      width: 50px;
+      height: 50px;
+   }
+    .termins-list {
+        display: flex;
+    align-items: baseline;  
+    justify-content: space-between;
+    }
+    .footer-section {
+      padding-top: 80px;
+    }
+.soc-list {
+   justify-content: flex-end;
+   align-items: start;
+   margin: 0;
+}
+.papa {
+   display: flex;
+   justify-content: space-between;
+}
+.footer-navigate {
+   display: flex;
+   gap: 267px;
+}
+.tablet-wrap {
+   display: flex;
+   flex-direction: column;
+   justify-content: normal;
+}   
+.tablet-wrap-nav {
+   display: flex;
+   flex-direction: column;
+}
+.termins-list {
+   margin-top: 152px;
+}
+.address-link {
+   font-size: 18px;
+   line-height: 1.33;
+   letter-spacing: -0.02em;
+}
+.nav-links-list {
+   gap: 18px;
+}
+.nav-link {
+font-size: 18px;
+line-height: 1.33;
+letter-spacing: -0.02em;
+}
+.soc-item{
+   width: 44px;
+   height: 44px;
+}
+.soc-svg {
+   width: 48px;
+   height: 48px;
+}
+.terms-list-wrap {
+   gap: 18px;
+}
+.terms-link {
+   font-size: 14px;
+   line-height: 1.29;
+   letter-spacing: -0.02em;
+   color: #C6CDD1;
+}
+.soc-list {
+   gap: 16px;
+   justify-content: flex-start;
+}
+.wrap {
+   display: flex;
+   justify-content: space-between;
+}
+}
+@media screen and (min-width: 1280px) {
+   .logo-svg {
+      width: 50px;
+      height: 50px;
+   }
+   .address-link {
+font-size: 18px;
+line-height: 1.33;
+letter-spacing: -0.02em;
+   }
+   .nav-link {
+font-size: 18px;
+line-height: 1.33;
+letter-spacing: -0.02em;
+   }
+   .terms-link {
+font-size: 14px;
+line-height: 1.29;
+letter-spacing: -0.02em;
+   }
+}
+ 
+
+   
+   
+
