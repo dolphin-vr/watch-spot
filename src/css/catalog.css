@@ -1,6 +1,7 @@
 .catalog .container {
    margin: 0 auto;
    width: 375px;
+   padding-bottom: 80px;
 }
 
 .section-title {
@@ -137,6 +138,7 @@
 @media screen and (min-width: 768px) {
    .catalog .container {
       width: 768px;
+      padding-bottom: 128px;
    }
 
    .catalog-card {
@@ -162,6 +164,7 @@
 @media screen and (min-width: 1280px) {
    .catalog .container {
       width: 1280px;
+      padding-bottom: 160px;
    }
 
    .section-title {
