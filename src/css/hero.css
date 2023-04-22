@@ -1,4 +1,4 @@
-.conteiner {
+.container.hero {
    width: 100%;
    padding: 122px 20px 40px;
    margin-left: auto;
@@ -10,8 +10,6 @@
    width: 100%;
    margin-bottom: 60px;
    margin-right: auto;
-   font-family: 'Epilogue';
-   font-style: normal;
    font-weight: 600;
    font-size: 38px;
    line-height: 1.05;
@@ -36,8 +34,6 @@
    width: 100%;
    margin-bottom: 40px;
    margin-left: auto;
-   font-family: 'Epilogue';
-   font-style: normal;
    font-weight: 300;
    font-size: 14px;
    line-height: calc(18/14)   ;
@@ -100,7 +96,7 @@
 
 /* ==========mobile========= */
 @media screen and (min-width: 375px) {
-   .conteiner {
+   .container.hero {
       width: 375px;
       padding: 122px 20px 40px;
       margin-left: auto;
@@ -129,7 +125,7 @@
 @media screen and (min-width: 768px) {
 
 
-.conteiner{
+.container.hero{
    width: 768px;
    padding: 148px 32px 64px;
 }
@@ -170,7 +166,7 @@
 }
 /* ======DESC======= */
 @media screen and (min-width: 1280px) {
-   .container {
+   .container.hero {
       width: 1280px;
       padding-left: 52px;
       padding-right: 52px;
