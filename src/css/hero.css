@@ -18,7 +18,7 @@
    height: 7px;
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 335px) {
    .conteiner {
       width: 335px;
       padding: 122px 20px 40px;
