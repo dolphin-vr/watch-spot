@@ -9,7 +9,7 @@
    line-height: 1.25;
    letter-spacing: -0.02em;
    color: #1e2827;
-   font-family: 'Epilogue', sans-serif;
+   /*font-family: 'Epilogue', sans-serif;*/
    font-size: 32px;
    font-weight: 600;
    font-style: normal;
@@ -49,7 +49,7 @@
    letter-spacing: -0.02em;
    white-space: nowrap;
    color: #141414;
-   font-family: 'Epilogue', sans-serif;
+   /*font-family: 'Epilogue', sans-serif;*/
    font-size: 14px;
    font-weight: 400;
 }
@@ -58,7 +58,7 @@
    line-height: 1.17;
    letter-spacing: -0.02em;
    color: rgba(20, 20, 20, 0.5);
-   font-family: 'Epilogue', sans-serif;
+   /*font-family: 'Epilogue', sans-serif;*/
    font-size: 12px;
    font-weight: 400;
 }
@@ -78,7 +78,7 @@
    text-transform: uppercase;
    line-height: 1.17;
    color: #ffffff;
-   font-family: 'Epilogue', sans-serif;
+   /*font-family: 'Epilogue', sans-serif;*/
    font-size: 12px;
 }
 
@@ -107,7 +107,7 @@
    line-height: 1.29;
    letter-spacing: -0.02em;
    color: #ffffff;
-   font-family: 'Epilogue', sans-serif;
+   /*font-family: 'Epilogue', sans-serif;*/
    font-size: 14px;
 }
 
@@ -116,7 +116,7 @@
    line-height: 1.29;
    letter-spacing: -0.01em;
    color: rgba(255, 255, 255, 0.5);
-   font-family: 'Epilogue', sans-serif;
+   /*font-family: 'Epilogue', sans-serif;*/
    font-size: 14px;
 }
 
