@@ -21,7 +21,10 @@
 }
 
 body{
-  font-family: 'Epilogue', sans-serif;
+  font-family: 'Epilogue', sans-serif;  
+  font-size: 14px;
+  line-height: 1.29;
+  color: var(--blacky);
 }
 
 /* for visualy hidden elements */
@@ -41,8 +44,7 @@ body{
  /* set to body when modal is open */
  .no-scroll {
    overflow: hidden;
- }
- 
+ } 
 
 .container {
    width: 100%;
