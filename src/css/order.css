@@ -8,8 +8,9 @@
    overflow-y: scroll;
    opacity: 1;
    visibility: visible;
-   background-color: var(--modal-overlay);
-   transition: opacity 250ms ease;
+   /* bgc? */
+   background-color: #fcfcfc;
+   transition: opacity var(--cubic);
 }
 
 .is-hidden {
@@ -17,13 +18,10 @@
    pointer-events: none;
    visibility: hidden;
 }
-.no-scroll {
- overflow: hidden;
-}
 
 .modal {
    padding: 40px 20px;
-   background-color: var(--white);
+   /* background-color: burlywood; */
    box-shadow: 0px 0px 223px rgba(0, 0, 0, 0.05), 0px 0px 130.6px rgba(0, 0, 0, 0.037963), 0px 0px 71.0296px rgba(0, 0, 0, 0.0303704), 0px 0px 36.2375px rgba(0, 0, 0, 0.025), 0px 0px 18.1704px rgba(0, 0, 0, 0.0196296), 0px 0px 8.77546px rgba(0, 0, 0, 0.012037);
    /* border-radius: 4px; */
    transition: transform var(--cubic),
@@ -40,36 +38,37 @@
    stroke: var(--blacky);
    background-color: transparent;
    border: none;
-   /* border-radius: 50%; */
-   transition: background-color var(--cubic);
-   transition: border-color var(--cubic);
+   border-radius: 50%;
+   transition: background-color var(--cubic),
+   stroke var(--cubic), border-color var(--cubic);
 }
 
 .close-btn .icon {
    position: absolute;
    top: 50%;
    left: 50%;
-   width: 8px;
-   height: 8px;
+   width: 20px;
+   height: 20px;
    transform: translate(-50%, -50%);
 }
 
 .close-btn:hover,
 .close-btn:focus {
-   background-color: var(--press-state);
-   border-color: var(--press-state);
-   stroke-opacity: 0.5;
+   background-color: var(--blacky);
+   border-color: var(--blackye);
+   stroke: var(--white);
+   /* stroke-opacity: 0.5; */
 }
-
 
 .order .form-label {
-   position: relative;
+   /* position: relative; */
    display: block;
-   padding-top: 18px;
-   margin-bottom: 8px;
+   /* padding-top: 18px; */
+   margin-bottom: 18px;
 }
 
-.order-label {
+.order-label, .comment .label {
+   display: block;
    margin-bottom: 12px;
    font-size: 12px;
    line-height: 1.17;
@@ -77,60 +76,17 @@
    color: var(--blacky);
 }
 
-
-.input {
-   padding: 7px 16px;
-   font-size: 12px;
-   line-height: 2;
-   letter-spacing: 0.04em;
-   color: var(--white-bg);
-   opacity: 0.3;
-   background-color: transparent;
-   border: 1px solid var(--white-bg);
-   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-   border-radius: 4px;
-}
-.subscribe .input::placeholder{
-   color: var(--white-bg);
-   opacity: 0.6;
-}
-
-.order .input {
+.input, .comment .textarea {
+   padding: 12px 16px;
    width: 100%;
-
    font-size: 14px;
-line-height: 18px;
-/* identical to box height, or 129% */
-
-letter-spacing: -0.02em;
-
-color: rgba(20, 20, 20, 0.5);
-
-
-   padding-left: 38px;
-   color: #000000;
-   border: 1px solid var(--modal-overlay);
-   border-color: var(--hero-bg);
-   border-color: var(--dark);
-   border-radius: 4px;
+   line-height: 1.29;
+   letter-spacing: -0.02em;
+   border: 1px solid rgba(20, 20, 20, 0.5);
+   border-radius: 8px;
 }
-
-.order .input:focus {
-   outline: none;
-   border-color: var(--pri-brand);
-}
-
-.order .input:focus+.order-label {
-   transform: translate(-38px, -20px);
-   color: var(--pri-brand);
-}
-
-.order .input:focus~.order-icon {
-   fill: var(--pri-brand);
-}
-
-.order .input:not(:placeholder-shown)+.order-label {
-   transform: translate(-38px, -20px);
+.input::placeholder, .comment .textarea::placeholder{
+   color: rgba(20, 20, 20, 0.5);
 }
 
 .order .input:-webkit-autofill,
@@ -141,88 +97,35 @@ color: rgba(20, 20, 20, 0.5);
 }
 
 .comment {
-   display: flex;
+   /* display: flex;
    flex-direction: column;
-   gap: 4px;
-   margin-bottom: 16px;
+   gap: 4px; */
+   display: block;
+   margin-bottom: 20px;
 }
 
-.comment .label {
+/* .comment .label {
    font-size: 12px;
    line-height: 1.17;
    letter-spacing: 0.01em;
    color: var(--subtle-text);
-}
+} */
 
 .comment .textarea {
    resize: none;
-   padding: 7px 15px;
-   font-size: 12px;
-   line-height: 1.17;
-   letter-spacing: 0.04em;
-   border: 1px solid var(--modal-overlay);
-   border-radius: 4px;
 }
 
-.comment .textarea::placeholder {
-   color: var(--modal-overlay);
-}
-
-.checkbox{
-   display: flex;
-   margin-bottom: 24px;
-}
-.checkbox .label{
-   display: flex;
-   justify-content: flex-start;
-   align-items: center;
-   flex-wrap: wrap;
-   font-size: 12px;
-   line-height: 1.17;
-   letter-spacing: 0.04em;
-   /* white-space: pre-wrap; */
-   white-space: pre;
-   color: var(--subtle-text);
-}
-
-.galka{
-   margin-right: 8px;
-   display: block;
-   width: 16px;
-   height: 16px;
-   fill: transparent;
-   background-color: transparent;
-   border: 1px solid var(--modal-overlay);
-   border-radius: 2px;
-   transition: background-color var(--cubic);
-}
-.galka .icon{
-   display: inline-block;
-   width: 16px;
-   height: 16px;
-}
-
-.checkbox .check:checked + .galka{
-   background-color: var(--press-state);
-   border: none;
-   fill: var(--light);
-}
-.checkbox .check:focus + .galka{
-   outline: 2px solid var(--pri-brand);
-}
-
-.checkbox a{
-   text-decoration-line: underline;
-   color: var(--pri-brand);
-
-}
 .submit-btn {
-   padding: 16px 64px;
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-   color: var(--white-bg);
-   background: var(--pri-brand);
+   padding: 18px 22px;
+   margin-bottom: 12px;
+   width: 100%;
+   font-size: 12px;
+   line-height: 1.17;
+   text-align: center;
+   text-transform: uppercase;
+   color: #FFFFFF;
+   background: #1E2827;
+   border-radius: 8px;
    border: none;
    transition: background-color var(--cubic);
 }
@@ -232,6 +135,13 @@ color: rgba(20, 20, 20, 0.5);
    background-color: var(--press-state);
 }
 
+.agree{
+   font-size: 12px;
+   line-height: 1.17;
+   align-items: center;
+   letter-spacing: -0.02em;
+   color: rgba(20, 20, 20, 0.4);
+}
 
 /* 
 .order-icon {
