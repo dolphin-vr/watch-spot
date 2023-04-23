@@ -1,5 +1,4 @@
 .new-watches-container {
-   padding-top: 80px;
    padding-bottom: 80px;
 }
 .new-watches-title {
@@ -28,7 +27,6 @@
 
 @media screen and (min-width: 768px) {
    .new-watches-container {
-      padding-top: 128px;
       padding-bottom: 128px;
    }
    .new-watches-after-title {
@@ -48,7 +46,6 @@
 }
 @media screen and (min-width: 1280px) {
    .new-watches-container {
-      padding-top: 80px;
       padding-bottom: 80px;
    }
    .new-watches-item {
