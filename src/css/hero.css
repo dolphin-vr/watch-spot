@@ -97,6 +97,7 @@
    color: var(--white);
 }
 .line{
+    
    width: 74px;
    display: flex;
    justify-content: center;
@@ -110,11 +111,20 @@
 
 
 .position-pagin{
+    position: relative;
    width: 266px;
    margin-top: 20px;
    display: flex;
    justify-content: space-between;
    align-items: center;
+}
+
+
+
+.line{
+    color: var(--white);
+    right: 5px;
+    left: auto;
 }
 
 
@@ -154,7 +164,7 @@
 
 
 .hero.container{
-   
+   width: 768px;
    padding: 148px 32px 64px;
 }
 .title-hero{
