@@ -1,28 +1,12 @@
-/* .section-sale {
-   padding-top: 80px;
-   padding-bottom: 80px;
-   margin: auto;
 
-} */
-.container {
+.sale .container {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     gap: 40px;
-    /* outline: solid red; */
 }
-    /* @media screen and (min-width: 375px) {
-    .container {
-        width: 375px;
-        margin-right: auto;
-        margin-left: auto;
-    }
-} */
 .gallery-sale {
     display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    gap: 20px;
+    gap:20px;
     margin: auto;
 }
 .gallery-sale-item {
@@ -31,12 +15,11 @@
     gap: 10px;
 }
 .title-sale {
-    font-family: 'Epilogue';
     font-weight: 600;
     font-size: 32px;
     line-height: 1.25;
     letter-spacing: -0.02em;
-    color: #141414;
+    color: var(--blacky);
 }
 .info {
     display: flex;
@@ -49,22 +32,18 @@
 }
 
 .title-by-police {
-    font-family: 'Epilogue';
-    /* font-weight: 400; */
     font-size: 24px;
     line-height: 1.0;
     letter-spacing: -0.02em;
-    color: #141414;
+    color: var(--blacky);
 }
 .title-information {
     position: relative;
-    font-family: 'Epilogue';
-    /* font-weight: 400; */
     font-size: 18px;
     line-height: 1.33;
     letter-spacing: -0.02em;
     text-transform: uppercase;
-    color: #141414;
+    color: var(--blacky);
 }
 
 .title-information::before {
@@ -72,7 +51,7 @@
     content: "";
     width: 100%;
     height: 40px;
-    border-top: 1px solid #141414;
+    border-top: 1px solid var(--blacky);
 }
 .title-information::after {
     position: absolute;
@@ -81,16 +60,13 @@
     height: 0px;
     right: 0px;
     top: 11px;
-    border: 1px solid #141414;
+    border: 1px solid var(--blacky);
 }
 .information {
     width: 100%;
 }
 
 .product-tag {
-    font-family: 'Epilogue';
-    font-style: normal;
-    /* font-weight: 400; */
     font-size: 14px;
     line-height: 1.29;
     letter-spacing: -0.02em;
@@ -101,16 +77,12 @@
     display: flex;
     align-items: center;
     gap: 8px;
-    font-family: 'Neue Montreal';
-    /* font-weight: 400; */
     font-size: 18px;
     line-height: 1.33;
     letter-spacing: -0.02em;
-    color: #141414;
+    color: var(--blacky);
 }
 .product-information {
-    font-family: 'Epilogue';
-    /* font-weight: 400; */
     font-size: 14px;
     line-height: 1.29;
     letter-spacing: -0.01em;
@@ -118,8 +90,6 @@
    
 }
 .price-low {
-    font-family: 'Epilogue';
-    /* font-weight: 400; */
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: -0.02em;
@@ -132,13 +102,36 @@
 .title-sale {
     font-size: 40px;
     line-height: 1.1;
-    color: #1E2827;
+    color: var(--dark);
 }
-
-
+.by-police, .information {
+    width:572px;
+    margin: auto;
+}
+.title-by-police {
+    font-size: 38px;
+    line-height: 1.05;
+}
 }
 
 /* ======================media-desktop================= */
 @media screen and (min-width: 1280px) {
+.sale .container {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap:80px 40px;
+    padding-left: 52px;
+    padding-right: 52px;
 
+}
+.title-sale {
+    width: 100%;
+}
+.by-police, .information {
+    width: 369px;
+}
+.gallery-sale {
+    margin: 0;
+}
 }
