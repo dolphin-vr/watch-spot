@@ -1,0 +1,79 @@
+.about-us-container {
+   padding-top: 40px;
+   padding-bottom: 80px;
+}
+.about-us-title {
+   margin-bottom: 40px;
+
+   font-weight: 600;
+   font-size: 32px;
+   line-height: 1.25;
+   letter-spacing: -0.02em;
+   color: var(--dark);
+}
+.about-us-item {
+   font-weight: 300;
+   font-size: 14px;
+   line-height: 1.29;
+   letter-spacing: -0.02em;
+   color: var(--blacky);
+}
+.about-us-item:not(:last-child) {
+   margin-bottom: 20px;
+}
+.about-text-wrap {
+   margin-bottom: 40px;
+}
+.about-us-img {
+   height: 365px;
+}
+@media screen and (min-width: 768px) {
+   .about-us-container {
+      padding-top: 64px;
+      padding-bottom: 128px;
+   }
+   .about-text-wrap {
+      display: flex;
+   }
+   .about-us-title {
+      margin: 0 40px 0 0;
+      padding: 0;
+      font-size: 40px;
+      line-height: 1.1;
+   }
+   .about-us-list {
+      display: flex;
+      width: 490px;
+   }
+
+   .about-us-item:not(:last-child) {
+      margin-bottom: 0px;
+      margin-right: 20px;
+   }
+   .about-us-img {
+      width: 704px;
+      height: 465px;
+   }
+}
+@media screen and (min-width: 1280px) {
+   .about-text-container {
+      padding-top: 80px;
+      padding-bottom: 80px;
+   }
+   .about-us-title {
+      margin-right: 110px;
+   }
+   .about-us-list {
+      width: 892px;
+   }
+   .about-us-item {
+   }
+   .about-us-item:not(:last-child) {
+      margin-right: 40px;
+   }
+   .about-us-img {
+      width: 892px;
+      height: 500px;
+      margin-left: auto;
+   }
+}
