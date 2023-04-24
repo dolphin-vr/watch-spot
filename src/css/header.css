@@ -16,7 +16,7 @@
    left: 0;
    z-index: 1;
    padding-top: 29px;
-   background: var(--blacky);
+   background: transparent;
 }
 .header-logo {
    display: flex;
