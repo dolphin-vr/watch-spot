@@ -16,7 +16,7 @@
    left: 0;
    z-index: 1;
    padding-top: 29px;
-   background: var(--blacky);
+   background: transparent;
 }
 .header-logo {
    display: flex;
@@ -277,4 +277,10 @@
       text-transform: uppercase;
       color: var(--white);
    }
+}
+
+/* For Menu an Swiper Conflict */
+.swiper,
+.swiper-container {
+   z-index: 0;
 }
