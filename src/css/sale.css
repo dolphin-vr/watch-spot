@@ -1,33 +1,41 @@
+.section {
+    padding-bottom: 80px;
+}
 
 .sale .container {
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
+
 .gallery-sale {
     display: flex;
-    gap:20px;
+    gap: 20px;
     margin: auto;
 }
+
 .gallery-sale-item {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
+
 .title-sale {
     font-weight: 600;
     font-size: 32px;
     line-height: 1.25;
     letter-spacing: -0.02em;
-    color: var(--blacky);
 }
+
 .info {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 40px;
 }
-.title-by-police,.title-information {
+
+.title-by-police,
+.title-information {
     margin-bottom: 8px;
 }
 
@@ -35,15 +43,14 @@
     font-size: 24px;
     line-height: 1.0;
     letter-spacing: -0.02em;
-    color: var(--blacky);
 }
+
 .title-information {
     position: relative;
     font-size: 18px;
     line-height: 1.33;
     letter-spacing: -0.02em;
     text-transform: uppercase;
-    color: var(--blacky);
 }
 
 .title-information::before {
@@ -53,6 +60,7 @@
     height: 40px;
     border-top: 1px solid var(--blacky);
 }
+
 .title-information::after {
     position: absolute;
     content: "";
@@ -62,17 +70,17 @@
     top: 11px;
     border: 1px solid var(--blacky);
 }
+
 .information {
     width: 100%;
 }
 
 .product-tag {
-    font-size: 14px;
-    line-height: 1.29;
     letter-spacing: -0.02em;
     color: rgba(20, 20, 20, 0.5);
     margin-bottom: 16px;
 }
+
 .price {
     display: flex;
     align-items: center;
@@ -80,15 +88,14 @@
     font-size: 18px;
     line-height: 1.33;
     letter-spacing: -0.02em;
-    color: var(--blacky);
 }
+
 .product-information {
-    font-size: 14px;
-    line-height: 1.29;
     letter-spacing: -0.01em;
     color: rgba(20, 20, 20, 0.5);
-   
+
 }
+
 .price-low {
     font-size: 12px;
     line-height: 1.17;
@@ -96,42 +103,54 @@
     text-decoration-line: line-through;
     color: rgba(20, 20, 20, 0.5);
 }
+
 /* =====================media-tablet================== */
 @media screen and (min-width: 768px) {
+    .section {
+        padding-bottom: 128px;
+    }
 
-.title-sale {
-    font-size: 40px;
-    line-height: 1.1;
-    color: var(--dark);
-}
-.by-police, .information {
-    width:572px;
-    margin: auto;
-}
-.title-by-police {
-    font-size: 38px;
-    line-height: 1.05;
-}
+    .title-sale {
+        font-size: 40px;
+        line-height: 1.1;
+        color: var(--dark);
+    }
+
+    .by-police,
+    .information {
+        width: 572px;
+        margin: auto;
+    }
+
+    .title-by-police {
+        font-size: 38px;
+        line-height: 1.05;
+    }
 }
 
 /* ======================media-desktop================= */
 @media screen and (min-width: 1280px) {
-.sale .container {
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    gap:80px 40px;
-    padding-left: 52px;
-    padding-right: 52px;
+    .section {
+        padding-bottom: 160px;
+    }
 
-}
-.title-sale {
-    width: 100%;
-}
-.by-police, .information {
-    width: 369px;
-}
-.gallery-sale {
-    margin: 0;
-}
+    .sale .container {
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        gap: 80px 40px;
+    }
+
+    .title-sale {
+        width: 100%;
+    }
+
+    .by-police,
+    .information {
+        width: 369px;
+    }
+
+    .gallery-sale {
+        margin: 0;
+    }
 }
