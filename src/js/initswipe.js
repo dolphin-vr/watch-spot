@@ -1,12 +1,15 @@
 let swiper = new Swiper(".mySwiper", {
    loop: true,
-   pagination: {
-     el: ".swiper-pagination",
-     type: "fraction",
-   },
    navigation: {
      nextEl: ".button-next",
      prevEl: ".button-prev",
+   },
+   pagination: {
+     el: '.swiper-pagination',
+     type: 'fraction',
+     renderFraction: function (currentSlide, totalSlide) {
+      return '0<span class="' + currentSlide + '"></span><span class="long-dash"></span>0<span class="' + totalSlide + '"></span>'
+     }
    },
  });
 

@@ -21,8 +21,11 @@
 
    --site: #fbfbfb;
 
-   --golden: #ffc000;
-   --gamboge: #e49b0f;
+   --golden: #c99806;
+   /* --golden: #ffc000; */
+   --gamboge: #bb7b04;
+   /* --gamboge: #e49b0f; */
+   
 
    /* transition duration + timing-function */
    --cubic: 250ms cubic-bezier(0.4, 0, 0.2, 1);

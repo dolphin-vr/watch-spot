@@ -84,21 +84,24 @@
 }
 
 
-.text-line{
+.currentSlide, .totalSlide{
    line-height: calc(18/14);
    color: var(--white);
 }
-.line{
-    
+.line{    
    width: 74px;
    display: flex;
    justify-content: center;
    align-items: center;
 }
 
-
-.hr{
-   width: 32px;
+.long-dash{
+   display: inline-block;
+   width: 40px;
+   height: 1px;
+   margin-left: 6px;
+   margin-right: 6px;
+   background-color: var(--white);
 }
 
 
