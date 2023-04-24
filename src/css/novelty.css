@@ -9,7 +9,7 @@
    line-height: 1.17;
    letter-spacing: 0.06em;
 
-   color: rgba(20, 20, 20, 0.4);
+   color: var(--grizzly);
 }
 .new-watches-after-title {
    margin-bottom: 40px;
@@ -18,8 +18,6 @@
    font-size: 32px;
    line-height: 1.25;
    letter-spacing: -0.02em;
-
-   color: var(--blacky);
 }
 .new-watches-item:not(:last-child) {
    margin-bottom: 20px;
