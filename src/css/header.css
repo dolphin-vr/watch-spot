@@ -278,3 +278,9 @@
       color: var(--white);
    }
 }
+
+/* For Menu an Swiper Conflict */
+.swiper,
+.swiper-container {
+   z-index: 0;
+}
