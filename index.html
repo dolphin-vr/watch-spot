@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"> -->
     
-    <script type="module" crossorigin src="/watch-spot/assets/index-1c93dc53.js"></script>
-    <link rel="stylesheet" href="/watch-spot/assets/index-2820a7be.css">
+    <script type="module" crossorigin src="/watch-spot/assets/index-299e5ffc.js"></script>
+    <link rel="stylesheet" href="/watch-spot/assets/index-34359e20.css">
   </head>
   <body>
     <header class="header">
@@ -119,8 +119,9 @@
                   </button>
                </div>
                <div class="line swiper-pagination">
-                  <p class="text-line">01</p>
-                  <p class="text-line">05</p>
+                  <span class="currentSlide"></span>
+                  <span class="long-dash"></span>
+                  <span class="totalSlide"></span>
                </div>
             </div>
          </div>
@@ -174,15 +175,9 @@
             <div class="catalog-card">
                <div class="picture-wrap">
                   <picture class="catalog-item-picture">
-                     <source
-                        srcset="/watch-spot/assets/watch-01-0472d2a2.webp 1x, /watch-spot/assets/watch-01@2x-c10448de.webp 2x"
-                        type="image/webp"
-                     />
-                     <source
-                        srcset="/watch-spot/assets/watch-01-ee935d17.jpg 1x, /watch-spot/assets/watch-01@2x-5593ae58.jpg 2x"
-                        type="image/jpeg"
-                     />
-                     <img src="/watch-spot/assets/watch-01-ee935d17.jpg" alt="watch-01" />
+                     <source srcset="/watch-spot/assets/watch-01-0472d2a2.webp 1x, /watch-spot/assets/watch-01@2x-c10448de.webp 2x" type="image/webp">
+                     <source srcset="/watch-spot/assets/watch-01-ee935d17.jpg 1x, /watch-spot/assets/watch-01@2x-5593ae58.jpg 2x" type="image/jpeg">
+                     <img src="/watch-spot/assets/watch-01-ee935d17.jpg" alt="watch-01">
                   </picture>
                   <div class="catalog-card-cover">
                      <p class="catalog-cover-title">Description</p>
@@ -207,20 +202,17 @@
                   <p class="catalog-item-price">€395</p>
                </div>
             </div>
+            <button type="button" class="cart-btn" aria-label="Add to Cart" id="card01" onClick="addArticle(this.id)">
+               <svg class="icon"><use href="/watch-spot/assets/sprite-b643b9f5.svg#heart"></use></svg>
+            </button>
          </li>
          <li class="catalog-item">
             <div class="catalog-card">
                <div class="picture-wrap">
                   <picture class="catalog-item-picture">
-                     <source
-                        srcset="/watch-spot/assets/watch-02-4b89b9c7.webp 1x, /watch-spot/assets/watch-02@2x-1-94d986a0.webp 2x"
-                        type="image/webp"
-                     />
-                     <source
-                        srcset="/watch-spot/assets/watch-02-13120329.jpg 1x, /watch-spot/assets/watch-02@2x-1-158970ba.jpg 2x"
-                        type="image/jpeg"
-                     />
-                     <img src="/watch-spot/assets/watch-02-13120329.jpg" alt="watch-01" />
+                     <source srcset="/watch-spot/assets/watch-02-4b89b9c7.webp 1x, /watch-spot/assets/watch-02@2x-1-94d986a0.webp 2x" type="image/webp">
+                     <source srcset="/watch-spot/assets/watch-02-13120329.jpg 1x, /watch-spot/assets/watch-02@2x-1-158970ba.jpg 2x" type="image/jpeg">
+                     <img src="/watch-spot/assets/watch-02-13120329.jpg" alt="watch-02">
                   </picture>
                   <div class="catalog-card-cover">
                      <p class="catalog-cover-title">Description</p>
@@ -245,20 +237,17 @@
                   <p class="catalog-item-price">€800</p>
                </div>
             </div>
+            <button type="button" class="cart-btn" aria-label="Add to Cart"  id="card02" onClick="addArticle(this.id)">
+               <svg class="icon"><use href="/watch-spot/assets/sprite-b643b9f5.svg#heart"></use></svg>
+            </button>
          </li>
          <li class="catalog-item">
             <div class="catalog-card">
                <div class="picture-wrap">
                   <picture class="catalog-item-picture">
-                     <source
-                        srcset="/watch-spot/assets/watch-03-0526d251.webp 1x, /watch-spot/assets/watch-03@2x-3c94959c.webp 2x"
-                        type="image/webp"
-                     />
-                     <source
-                        srcset="/watch-spot/assets/watch-03-b5390d2a.jpg 1x, /watch-spot/assets/watch-03@2x-c2aa8cf6.jpg 2x"
-                        type="image/jpeg"
-                     />
-                     <img src="/watch-spot/assets/watch-03-b5390d2a.jpg" alt="watch-01" />
+                     <source srcset="/watch-spot/assets/watch-03-0526d251.webp 1x, /watch-spot/assets/watch-03@2x-3c94959c.webp 2x" type="image/webp">
+                     <source srcset="/watch-spot/assets/watch-03-b5390d2a.jpg 1x, /watch-spot/assets/watch-03@2x-c2aa8cf6.jpg 2x" type="image/jpeg">
+                     <img src="/watch-spot/assets/watch-03-b5390d2a.jpg" alt="watch-03">
                   </picture>
                   <div class="catalog-card-cover">
                      <p class="catalog-cover-title">Description</p>
@@ -283,20 +272,17 @@
                   <p class="catalog-item-price">€600</p>
                </div>
             </div>
+            <button type="button" class="cart-btn" aria-label="Add to Cart"  id="card03" onClick="addArticle(this.id)">
+               <svg class="icon"><use href="/watch-spot/assets/sprite-b643b9f5.svg#heart"></use></svg>
+            </button>
          </li>
          <li class="catalog-item">
             <div class="catalog-card">
                <div class="picture-wrap">
                   <picture class="catalog-item-picture">
-                     <source
-                        srcset="/watch-spot/assets/watch-04-d442435f.webp 1x, /watch-spot/assets/watch-04@2x-4a4c60b4.webp 2x"
-                        type="image/webp"
-                     />
-                     <source
-                        srcset="/watch-spot/assets/watch-04-ce7bf2e2.jpg 1x, /watch-spot/assets/watch-04@2x-5f0fcbd3.jpg 2x"
-                        type="image/jpeg"
-                     />
-                     <img src="/watch-spot/assets/watch-04-ce7bf2e2.jpg" alt="watch-01" />
+                     <source srcset="/watch-spot/assets/watch-04-d442435f.webp 1x, /watch-spot/assets/watch-04@2x-4a4c60b4.webp 2x" type="image/webp">
+                     <source srcset="/watch-spot/assets/watch-04-ce7bf2e2.jpg 1x, /watch-spot/assets/watch-04@2x-5f0fcbd3.jpg 2x" type="image/jpeg">
+                     <img src="/watch-spot/assets/watch-04-ce7bf2e2.jpg" alt="watch-04">
                   </picture>
                   <div class="catalog-card-cover">
                      <p class="catalog-cover-title">Description</p>
@@ -321,6 +307,9 @@
                   <p class="catalog-item-price">€1400</p>
                </div>
             </div>
+            <button type="button" class="cart-btn" aria-label="Add to Cart"  id="card04" onClick="addArticle(this.id)">
+               <svg class="icon"><use href="/watch-spot/assets/sprite-b643b9f5.svg#heart"></use></svg>
+            </button>
          </li>
          <li class="catalog-item">
             <div class="catalog-card">
@@ -334,7 +323,7 @@
                         srcset="/watch-spot/assets/watch-05-adc2972c.jpg 1x, /watch-spot/assets/watch-05@2x-aae2f91e.jpg 2x"
                         type="image/jpeg"
                      />
-                     <img src="/watch-spot/assets/watch-05-adc2972c.jpg" alt="watch-01" />
+                     <img src="/watch-spot/assets/watch-05-adc2972c.jpg" alt="watch-05" />
                   </picture>
                   <div class="catalog-card-cover">
                      <p class="catalog-cover-title">Description</p>
@@ -359,6 +348,9 @@
                   <p class="catalog-item-price">€500</p>
                </div>
             </div>
+            <button type="button" class="cart-btn" aria-label="Add to Cart"  id="card05" onClick="addArticle(this.id)">
+               <svg class="icon"><use href="/watch-spot/assets/sprite-b643b9f5.svg#heart"></use></svg>
+            </button>
          </li>
          <li class="catalog-item">
             <div class="catalog-card">
@@ -372,7 +364,7 @@
                         srcset="/watch-spot/assets/watch-06-a7e77afc.jpg 1x, /watch-spot/assets/watch-06@2x-66adcfa3.jpg 2x"
                         type="image/jpeg"
                      />
-                     <img src="/watch-spot/assets/watch-06-a7e77afc.jpg" alt="watch-01" />
+                     <img src="/watch-spot/assets/watch-06-a7e77afc.jpg" alt="watch-06" />
                   </picture>
                   <div class="catalog-card-cover">
                      <p class="catalog-cover-title">Description</p>
@@ -397,6 +389,9 @@
                   <p class="catalog-item-price">€555</p>
                </div>
             </div>
+            <button type="button" class="cart-btn" aria-label="Add to Cart"  id="card06" onClick="addArticle(this.id)">
+               <svg class="icon"><use href="/watch-spot/assets/sprite-b643b9f5.svg#heart"></use></svg>
+            </button>
          </li>
          <li class="catalog-item">
             <div class="catalog-card">
@@ -410,7 +405,7 @@
                         srcset="/watch-spot/assets/watch-07-bd29e811.jpg 1x, /watch-spot/assets/watch-07@2x-3412d2e8.jpg 2x"
                         type="image/jpeg"
                      />
-                     <img src="/watch-spot/assets/watch-07-bd29e811.jpg" alt="watch-01" />
+                     <img src="/watch-spot/assets/watch-07-bd29e811.jpg" alt="watch-07" />
                   </picture>
                   <div class="catalog-card-cover">
                      <p class="catalog-cover-title">Description</p>
@@ -435,6 +430,9 @@
                   <p class="catalog-item-price">€1200</p>
                </div>
             </div>
+            <button type="button" class="cart-btn" aria-label="Add to Cart"  id="card07" onClick="addArticle(this.id)">
+               <svg class="icon"><use href="/watch-spot/assets/sprite-b643b9f5.svg#heart"></use></svg>
+            </button>
          </li>
          <li class="catalog-item">
             <div class="catalog-card">
@@ -448,7 +446,7 @@
                         srcset="/watch-spot/assets/watch-08-dc3514dc.jpg 1x, /watch-spot/assets/watch-08@2x-d742918b.jpg 2x"
                         type="image/jpeg"
                      />
-                     <img src="/watch-spot/assets/watch-08-dc3514dc.jpg" alt="watch-01" />
+                     <img src="/watch-spot/assets/watch-08-dc3514dc.jpg" alt="watch-08" />
                   </picture>
                   <div class="catalog-card-cover">
                      <p class="catalog-cover-title">Description</p>
@@ -473,6 +471,9 @@
                   <p class="catalog-item-price">€1000</p>
                </div>
             </div>
+            <button type="button" class="cart-btn" aria-label="Add to Cart"  id="card08" onClick="addArticle(this.id)">
+               <svg class="icon"><use href="/watch-spot/assets/sprite-b643b9f5.svg#heart"></use></svg>
+            </button>
          </li>
          <li class="catalog-item">
             <div class="catalog-card">
@@ -486,7 +487,7 @@
                         srcset="/watch-spot/assets/watch-09-1d8e88ef.jpg 1x, /watch-spot/assets/watch-09@2x-6cc883e9.jpg 2x"
                         type="image/jpeg"
                      />
-                     <img src="/watch-spot/assets/watch-09-1d8e88ef.jpg" alt="watch-01" />
+                     <img src="/watch-spot/assets/watch-09-1d8e88ef.jpg" alt="watch-09" />
                   </picture>
                   <div class="catalog-card-cover">
                      <p class="catalog-cover-title">Description</p>
@@ -511,6 +512,9 @@
                   <p class="catalog-item-price">€359</p>
                </div>
             </div>
+            <button type="button" class="cart-btn" aria-label="Add to Cart"  id="card09" onClick="addArticle(this.id)">
+               <svg class="icon"><use href="/watch-spot/assets/sprite-b643b9f5.svg#heart"></use></svg>
+            </button>
          </li>
          <li class="catalog-item">
             <div class="catalog-card">
@@ -524,7 +528,7 @@
                         srcset="/watch-spot/assets/watch-10-260a3e7f.jpg 1x, /watch-spot/assets/watch-10@2x-2ff51146.jpg 2x"
                         type="image/jpeg"
                      />
-                     <img src="/watch-spot/assets/watch-10-260a3e7f.jpg" alt="watch-01" />
+                     <img src="/watch-spot/assets/watch-10-260a3e7f.jpg" alt="watch-10" />
                   </picture>
                   <div class="catalog-card-cover">
                      <p class="catalog-cover-title">Description</p>
@@ -549,6 +553,9 @@
                   <p class="catalog-item-price">€400</p>
                </div>
             </div>
+            <button type="button" class="cart-btn" aria-label="Add to Cart"  id="card10" onClick="addArticle(this.id)">
+               <svg class="icon"><use href="/watch-spot/assets/sprite-b643b9f5.svg#heart"></use></svg>
+            </button>
          </li>
          <li class="catalog-item">
             <div class="catalog-card">
@@ -562,7 +569,7 @@
                         srcset="/watch-spot/assets/watch-11-80c54a47.jpg 1x, /watch-spot/assets/watch-11@2x-e5ea42d8.jpg 2x"
                         type="image/jpeg"
                      />
-                     <img src="/watch-spot/assets/watch-11-80c54a47.jpg" alt="watch-01" />
+                     <img src="/watch-spot/assets/watch-11-80c54a47.jpg" alt="watch-11" />
                   </picture>
                   <div class="catalog-card-cover">
                      <p class="catalog-cover-title">Description</p>
@@ -587,6 +594,9 @@
                   <p class="catalog-item-price">€519</p>
                </div>
             </div>
+            <button type="button" class="cart-btn" aria-label="Add to Cart"  id="card11" onClick="addArticle(this.id)">
+               <svg class="icon"><use href="/watch-spot/assets/sprite-b643b9f5.svg#heart"></use></svg>
+            </button>
          </li>
          <li class="catalog-item">
             <div class="catalog-card">
@@ -600,7 +610,7 @@
                         srcset="/watch-spot/assets/watch-12-38569bb2.jpg 1x, /watch-spot/assets/watch-12@2x-be1330f7.jpg 2x"
                         type="image/jpeg"
                      />
-                     <img src="/watch-spot/assets/watch-12-38569bb2.jpg" alt="watch-01" />
+                     <img src="/watch-spot/assets/watch-12-38569bb2.jpg" alt="watch-12" />
                   </picture>
                   <div class="catalog-card-cover">
                      <p class="catalog-cover-title">Description</p>
@@ -625,6 +635,9 @@
                   <p class="catalog-item-price">€400</p>
                </div>
             </div>
+            <button type="button" class="cart-btn" aria-label="Add to Cart"  id="card12" onClick="addArticle(this.id)">
+               <svg class="icon"><use href="/watch-spot/assets/sprite-b643b9f5.svg#heart"></use></svg>
+            </button>
          </li>
       </ul>
       <button class="catalog-btn" type="button" data-modal-open>Buy Now</button>
@@ -827,8 +840,8 @@
         <ul class="cart list swiper-wrapper">
             <li class="item  swiper-slide"  id="art01" data-card>
                      <picture class="catalog-item-picture">
-                        <source srcset="/watch-spot/assets/watch-01-0472d2a2.webp 1x, /watch-spot/assets/watch-01@2x-c10448de.webp 2x" type="image/webp" />
-                        <source srcset="/watch-spot/assets/watch-01-ee935d17.jpg 1x, /watch-spot/assets/watch-01@2x-5593ae58.jpg 2x" type="image/jpeg" />
+                        <source srcset="/watch-spot/assets/watch-01-0472d2a2.webp 1x, /watch-spot/assets/watch-01@2x-c10448de.webp 2x" type="image/webp">
+                        <source srcset="/watch-spot/assets/watch-01-ee935d17.jpg 1x, /watch-spot/assets/watch-01@2x-5593ae58.jpg 2x" type="image/jpeg">
                         <img src="/watch-spot/assets/watch-01-ee935d17.jpg" alt="photo of the watch">
                      </picture>
                   <p class="catalog-item-title">Tube Watch S42 Date Steel With Black Case</p>
@@ -836,8 +849,8 @@
             </li>
             <li class="item swiper-slide"  id="art02" data-card>
                      <picture class="catalog-item-picture">
-                        <source srcset="./img/catalog/watch-02.webp 1x, ./img/catalog/watch-02@2x.webp 2x" type="image/webp" />
-                        <source srcset="./img/catalog/watch-02.jpg 1x, ./img/catalog/watch-02@2x.jpg 2x" type="image/jpeg" />
+                        <source srcset="./img/catalog/watch-02.webp 1x, ./img/catalog/watch-02@2x.webp 2x" type="image/webp">
+                        <source srcset="./img/catalog/watch-02.jpg 1x, ./img/catalog/watch-02@2x.jpg 2x" type="image/jpeg">
                         <img src="/watch-spot/assets/watch-02-13120329.jpg" alt="photo of the watch">
                      </picture>
                   <p class="catalog-item-title">Avondale Watch Police For Men</p>
@@ -938,17 +951,17 @@
        <form name="order" autocomplete="on" class="order">
            <label class="form-label">
                <span class="order-label">Full name</span>
-               <input type="text" class="input" name="name" placeholder="Enter your full name">
+               <input type="text" class="input" name="name" placeholder="Enter your full name" required>
                <!-- <svg class="order-icon"><use href="./images/sprite.svg#user"></use></svg> -->
            </label>
            <label class="form-label">
                <span class="order-label">Email</span>
-               <input type="email" class="input" name="email" placeholder="Enter your email">
+               <input type="email" class="input" name="email" placeholder="Enter your email" required>
                <!-- <svg class="order-icon"><use href="./images/sprite.svg#mail"></use></svg> -->
            </label>
            <label class="form-label">
                <span class="order-label">Card number</span>
-               <input type="tel" class="input" name="ccn" placeholder="Enter card">
+               <input type="tel" class="input" name="ccn" placeholder="Enter card" required>
                <!-- <svg class="order-icon"><use href="./images/sprite.svg#oldphone"></use></svg> -->
            </label>
            <label class="comment">
@@ -968,6 +981,68 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     
+    <!-- <script>
+      const cards = document.querySelectorAll("[data-card]");
+
+cards.forEach((el) => {el.classList.toggle("not-ordered");});
+
+function addArticle(clicked_id) {
+    switch (clicked_id) {
+      case "card01":
+         showCart("art01");
+         break;
+      case "card02":
+         showCart("art02");
+          break;
+      case "card03":
+         showCart("art03");
+         break;
+      case "card04":
+         showCart("art04");
+         break;
+      case "card05":
+         showCart("art05");
+         break;
+      case "card06":
+         showCart("art06");
+            break;
+      case "card07":
+         showCart("art07");
+         break;
+      case "card08":
+         showCart("art08");
+         break;
+      case "card09":
+         showCart("art09");
+         break;
+      case "card10":
+         showCart("art10");
+            break;
+      case "card11":
+         showCart("art11");
+         break;
+      case "card12":
+         showCart("art12");
+         break;
+  };
+};
+
+// $(document).ready(function(){      
+// });
+
+addArticle("");
+
+
+function showCart(artId){
+   for (let a = 0; a < cards.length; a++) {
+      if (cards[a].id == artId){
+         cards[a].classList.toggle("not-ordered");
+      };
+      
+  };
+}
+
+    </script> -->
 
   </body>
 </html>
