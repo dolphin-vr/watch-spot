@@ -52,13 +52,6 @@
     }
 }
 
-.about-text{
-    font-family: 'Epilogue';
-    font-style: normal;
-    font-size: 14px;
-    line-height: 1.29;
-    letter-spacing: -0.02em;
-}
 .about-list{
     display: flex;
     align-items: center;
