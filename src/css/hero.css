@@ -1,5 +1,9 @@
-.hero.container {
-   
+.hero {
+   width: 100%;
+   background-color: var(--black);
+   }
+
+.hero .container {   
    padding: 122px 20px 40px;
    }
 .title-hero {
@@ -34,22 +38,10 @@
    margin-left: auto;
    font-weight: 300;
    font-size: 14px;
-   line-height: calc(18/14)   ;
- 
+   line-height: calc(18/14) ; 
    letter-spacing: -0.02em;
-
-
-
-
    color: var(--white);
    }
-
-
-.hero-bgr {
-   width: 100%;
-   background-color: var(--black);
-   }
-
 
 .slider-btn{
    display: flex;
@@ -132,21 +124,16 @@
 
 /* ==========mobile========= */
 @media screen and (min-width: 375px) {
-   .hero.container {
-      
+   .hero .container {      
       padding: 122px 20px 40px;
       margin-left: auto;
       margin-right: auto;
    }
 
-
-
-
    .title-hero {
       margin-bottom: 40px ;
       width: 335px;
    }
-
 
    .text-hero{
       width: 248px;
@@ -159,25 +146,15 @@
 }
 /* --------table========= */
 @media screen and (min-width: 768px) {
-
-
-
-
-.hero.container{
-   
+.hero .container{   
    padding: 148px 32px 64px;
 }
 .title-hero{
    width: 653px;
-
-
-
-
    font-weight: 600;
    font-size: 60px;
    line-height: calc(62/60);
    }
-
 
 .slider{
    width: 436px;
@@ -188,7 +165,6 @@
 .slide-bcg{
    width: 436px;
 }
-
 
 .slider-btn{
    width: 40px;
@@ -226,9 +202,8 @@
 }
 /* ======DESC======= */
 @media screen and (min-width: 1280px) {
-.hero.container {
-   position: relative;
-   
+.hero .container {
+   position: relative;   
    padding-top: 148px;
    padding-left: 52px;
    padding-right: 52px;
