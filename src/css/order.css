@@ -132,7 +132,8 @@
 
 .submit-btn:hover,
 .submit-btn:focus {
-   background-color: var(--press-state);
+   border-color: var(--white);
+   background-color: var(--grizzly);
 }
 
 .agree{
