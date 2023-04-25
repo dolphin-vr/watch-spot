@@ -124,7 +124,7 @@
    position: fixed;
    top: 0;
    right: -375px;
-   z-index: 1;
+   z-index: 100;
    padding-top: 30px;
    padding-left: 20px;
    padding-right: 20px;
@@ -214,6 +214,7 @@
       transform: translateX(-375px);
       visibility: visible;
       pointer-events: auto;
+      overflow: hidden;
    }
 }
 @media screen and (min-width: 768px) {
