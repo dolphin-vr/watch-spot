@@ -60,6 +60,9 @@
    /* stroke-opacity: 0.5; */
 }
 
+.order-slider{
+   max-width: 276px;
+}
 .cart img{
    margin-left: auto;
    margin-right: auto;
@@ -158,10 +161,10 @@
    height: 24px;
    transform: translateY(50%);
 } */
-@media screen and (max-width: 419px) {
+/* @media screen and (max-width: 419px) {
    .modal {
        position: relative;
-   }}
+   }} */
 
 @media screen and (max-width: 374px) {
    .modal {
@@ -188,7 +191,7 @@
       display: flex;
       gap: 20px;
       align-items: flex-start;
-   }
+   } 
 }
 @media screen and (min-width: 1280px) {
    .modal {
