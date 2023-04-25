@@ -123,13 +123,16 @@
    height: 100%;
    position: fixed;
    top: 0;
-   right: 0;
+   right: -375px;
    z-index: 1;
    padding-top: 30px;
    padding-left: 20px;
    padding-right: 20px;
    background-color: var(--dark);
    transition: opacity var(--cubic), visibility var(--cubic);
+   transform: translateX(0);
+   transition-property: transform;
+   transition-duration: 250ms;
 }
 .mobile-menu__open-btn {
    width: 24px;
@@ -210,6 +213,7 @@
    }
    .mobile-menu.is-open {
       opacity: 1;
+      transform: translateX(-375px);
       visibility: visible;
       pointer-events: auto;
    }
