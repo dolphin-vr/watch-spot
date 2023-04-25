@@ -10,7 +10,7 @@
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"> -->
     
     <script type="module" crossorigin src="/watch-spot/assets/index-299e5ffc.js"></script>
-    <link rel="stylesheet" href="/watch-spot/assets/index-e4c0b21d.css">
+    <link rel="stylesheet" href="/watch-spot/assets/index-5865eb0d.css">
   </head>
   <body>
     <header class="header">
@@ -77,7 +77,7 @@
    <div class="container">
       <div class="slider-position-tabl">
          <h1 class="title-hero">Welcome to our collection of premium watches</h1>
-         <div class="slider swiper mySwiper">
+         <div class="hero-slider slider swiper mySwiper">
             <div class="slide-bcg swiper-wrapper">
                <picture class="slide-img slide-bcg swiper-slide">
                   <source media="(min-width:375px)" srcset="/watch-spot/assets/slide-01@2x-5d9d5867.webp 2x, /watch-spot/assets/slide-01-7830d8a7.webp 1x" type="image/webp">
@@ -871,7 +871,7 @@
            <svg class="icon"><use href="/watch-spot/assets/sprite-b643b9f5.svg#close"></use></svg>
        </button>
        <h2 class="invisible">purchase registration</h2>
-       <div class="slider swiper cartSwiper">
+       <div class="order-slider slider swiper cartSwiper">
         <ul class="cart list swiper-wrapper">
             <li class="item  swiper-slide"  id="art01" data-card>
                      <picture class="catalog-item-picture">
@@ -884,7 +884,8 @@
             </li>
             <li class="item swiper-slide"  id="art02" data-card>
                      <picture class="catalog-item-picture">
-                        <source srcset="./img/catalog/watch-02.webp 1x, ./img/catalog/watch-02@2x.webp 2x" type="image/webp">
+                        <!-- ВИПРАВИТИ НА 02 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+                        <source srcset="./img/catalog/watch-03.webp 1x, ./img/catalog/watch-02@2x.webp 2x" type="image/webp">
                         <source srcset="./img/catalog/watch-02.jpg 1x, ./img/catalog/watch-02@2x.jpg 2x" type="image/jpeg">
                         <img src="/watch-spot/assets/watch-02-13120329.jpg" alt="photo of the watch">
                      </picture>
@@ -1016,68 +1017,6 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     
-    <!-- <script>
-      const cards = document.querySelectorAll("[data-card]");
-
-cards.forEach((el) => {el.classList.toggle("not-ordered");});
-
-function addArticle(clicked_id) {
-    switch (clicked_id) {
-      case "card01":
-         showCart("art01");
-         break;
-      case "card02":
-         showCart("art02");
-          break;
-      case "card03":
-         showCart("art03");
-         break;
-      case "card04":
-         showCart("art04");
-         break;
-      case "card05":
-         showCart("art05");
-         break;
-      case "card06":
-         showCart("art06");
-            break;
-      case "card07":
-         showCart("art07");
-         break;
-      case "card08":
-         showCart("art08");
-         break;
-      case "card09":
-         showCart("art09");
-         break;
-      case "card10":
-         showCart("art10");
-            break;
-      case "card11":
-         showCart("art11");
-         break;
-      case "card12":
-         showCart("art12");
-         break;
-  };
-};
-
-// $(document).ready(function(){      
-// });
-
-addArticle("");
-
-
-function showCart(artId){
-   for (let a = 0; a < cards.length; a++) {
-      if (cards[a].id == artId){
-         cards[a].classList.toggle("not-ordered");
-      };
-      
-  };
-}
-
-    </script> -->
 
   </body>
 </html>
