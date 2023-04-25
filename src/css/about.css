@@ -34,17 +34,19 @@
    font-size: 32px;
    line-height: 1.25;
    letter-spacing: -0.02em;
-   text-transform: capitalize;
    padding-bottom: 40px;
 }
 @media screen and (min-width: 768px) {
    .about-title {
       padding-right: 40px;
+      white-space: nowrap;
    }
 }
 @media screen and (min-width: 1200px) {
    .about-title {
-      padding-right: 110px;
+      padding-right: 125px;
+      width: auto;
+      white-space: nowrap;
    }
 }
 .about-list {
@@ -62,7 +64,7 @@
 }
 @media screen and (min-width: 1280px) {
    .about-list {
-      flex-direction: row;
+      gap: 40px;
    }
 }
 
@@ -88,7 +90,7 @@
 }
 @media screen and (min-width: 1280px) {
    .watch-about {
-      width: 920px;
+      width: 915px;
       height: 520px;
       float: right;
    }
