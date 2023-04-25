@@ -145,7 +145,7 @@
    width: 436px;
 }
 .text-hero{
-   margin: 0 0 0 20px;
+   margin: 0 0 77px 20px;
 }
 .slide-bcg{
    width: 436px;
@@ -186,6 +186,7 @@
    }
    
 .hero-img{
+   order: 4;
    width: 676px;
    height: 394px;
 }
@@ -195,13 +196,13 @@
 }
 
 .text-hero{
+   margin-left: 0;
+   order: 2;
    width: 282px;
-   position: absolute;
-   top: 148px;
-   right: 52px;
 }
 
 .hero-slider{
+   order: 3;
    margin:0 62px 0 0;
 }
 .slider-position-tabl{
