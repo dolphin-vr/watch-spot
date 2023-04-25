@@ -119,7 +119,7 @@
 }
 /* ========== Mobile Menu ========== */
 .mobile-menu {
-   width: 375px;
+   width: 100%;
    height: 100%;
    position: fixed;
    top: 0;
@@ -133,6 +133,7 @@
    transform: translateX(0);
    transition-property: transform;
    transition-duration: 250ms;
+   overflow: hidden;
 }
 .mobile-menu__open-btn {
    width: 24px;
@@ -196,9 +197,6 @@
 }
 
 @media screen and (max-width: 374px) {
-   .mobile-menu {
-      width: auto;
-   }
 }
 /* @media screen and (min-width: 375px) {
    .container {
