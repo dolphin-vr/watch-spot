@@ -1,101 +1,97 @@
-.about {
-    padding-top: 40px;
-    padding-bottom: 80px;
-    display: flex;
+.about-section {
+   padding-top: 40px;
+   padding-bottom: 80px;
+   display: flex;
 }
 @media screen and (min-width: 768px) {
-    .about {
-        padding-top: 64px;
-        padding-bottom: 128px;
-    }
+   .about-section {
+      padding-top: 64px;
+      padding-bottom: 128px;
+   }
 }
 @media screen and (min-width: 1200px) {
-    .about {
-        padding-top: 80px;
-        padding-bottom: 160px;
-    }
+   .about-section {
+      padding-top: 80px;
+      padding-bottom: 160px;
+   }
 }
-.about-information{
-    display: block;
+.about-information {
+   display: block;
 }
 @media screen and (min-width: 768px) {
-    .about-information {
-        flex-wrap: nowrap;
-        display:flex;
-    }
+   .about-information {
+      flex-wrap: nowrap;
+      display: flex;
+   }
 }
 @media screen and (min-width: 1200px) {
-    .about-information {
-        flex-wrap: nowrap;
-        display: flex;
-    }
+   .about-information {
+      flex-wrap: nowrap;
+      display: flex;
+   }
 }
-.about-title{
-    font-size: 32px;
-    line-height: 1.25;
-    letter-spacing: -0.02em;
-    text-transform: capitalize;
-    flex: none;
-    padding-bottom: 40px;
+.about-title {
+   font-size: 32px;
+   line-height: 1.25;
+   letter-spacing: -0.02em;
+   padding-bottom: 40px;
 }
 @media screen and (min-width: 768px) {
-    .about-title {
-        padding-right: 40px;
-    }
+   .about-title {
+      padding-right: 40px;
+      white-space: nowrap;
+   }
 }
 @media screen and (min-width: 1200px) {
-    .about-title {
-        padding-right: 110px;
-    }
+   .about-title {
+      padding-right: 125px;
+      width: auto;
+      white-space: nowrap;
+   }
 }
-
-.about-list{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 20px;
-    padding-bottom: 40px;
-
-}
-
-@media screen and (min-width: 768px) {
-    .about-list {
-        flex-direction: row;
-    }
-}
-@media screen and (min-width: 1280px) {
-    .about-list {
-        flex-direction: row;
-    }
+.about-list {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   gap: 20px;
+   padding-bottom: 40px;
 }
 
 @media screen and (min-width: 768px) {
-    .about-text {
-        flex-direction: row;
-    }
+   .about-list {
+      flex-direction: row;
+   }
 }
 @media screen and (min-width: 1280px) {
-    .about-text {
-        flex-wrap: nowrap;
-    }
+   .about-list {
+      gap: 40px;
+   }
 }
 
-.watch-about{
-    width: 335px;
-    height: 365px;
+@media screen and (min-width: 768px) {
+   .about-text {
+      flex-direction: row;
+   }
+}
+@media screen and (min-width: 1280px) {
+   .about-text {
+      flex-wrap: nowrap;
+   }
+}
+.watch-about {
+   width: 335px;
+   height: 365px;
 }
 @media screen and (min-width: 768px) {
-    .watch-about {
-        width: 704px;
-        height: 465px;
-    }
+   .watch-about {
+      width: 704px;
+      height: 465px;
+   }
 }
 @media screen and (min-width: 1280px) {
-    .watch-about {
-        width: 920px;
-        height: 520px;
-        float: right;
-    }
+   .watch-about {
+      width: 915px;
+      height: 520px;
+      float: right;
+   }
 }
-
-
