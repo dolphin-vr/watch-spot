@@ -35,16 +35,10 @@
 }
 
 .title-by-police {
-    margin-bottom: 8px;
-}
-.title-information {
-    margin-bottom: 17px;
-}
-
-.title-by-police {
     font-size: 24px;
     line-height: 1.0;
     letter-spacing: -0.02em;
+    margin-bottom: 8px;
 }
 
 .title-information {
@@ -136,6 +130,8 @@
     }
 
     .title-by-police {
+        width: 572px;
+        margin: auto;
         font-size: 38px;
         line-height: 1.05;
     }
@@ -157,7 +153,8 @@
     .title-sale {
         width: 100%;
     }
-
+    
+    .title-by-police,
     .by-police,
     .information {
         width: 369px;
