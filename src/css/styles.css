@@ -21,10 +21,12 @@
 
    --site: #fbfbfb;
 
-   --golden: #c99806;
-   /* --golden: #ffc000; */
+   /* --golden: #c99806; */
+   --golden: #ffc000;
    --gamboge: #bb7b04;
    /* --gamboge: #e49b0f; */
+
+      --cherry: rgba(188, 26, 26, 0.5);
    
 
    /* transition duration + timing-function */

@@ -146,9 +146,11 @@
    transform: translate(-50%, -50%);
 }
 
-.cart-btn:hover, .cart-btn:focus,
-.cart-btn-chk {
-   fill: var(--gamboge);
+.cart-btn:hover, .cart-btn:focus{
+   fill: var(--golden);
+}
+.cart-btn-chk, .cart-btn-chk.cart-btn:focus {
+   fill: var(--cherry);
    /* fill-opacity: 0.5; */
 }
 /* ---==== /added by dolphin ====--- */
