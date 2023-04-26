@@ -78,6 +78,10 @@
 .watch-about {
    width: 335px;
    height: 300px;
+   display: block;
+   height: 365px;
+   width: auto;
+   object-fit: cover;
 }
 @media screen and (min-width: 768px) {
    .watch-about {
