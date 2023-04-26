@@ -11,3 +11,8 @@ const refs = {
    refs.backdrop.classList.toggle("is-hidden");
    document.body.classList.toggle("no-scroll");
  }
+
+//  var inputName = document.getElementById('name');
+//  inputName.oninvalid = function(event) {
+// 	event.target.setCustomValidity('Username should only contain letters. e.g. John Smith');
+// }
