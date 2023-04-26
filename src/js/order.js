@@ -1,6 +1,7 @@
 const cards = document.querySelectorAll("[data-card]");
 const buttons = document.querySelectorAll(".cart-btn");
 const notice = document.querySelector(".notice");
+const slider = document.querySelector(".order-slider");
 let orderList = [];
 
 // for (const btn of buttons) {
@@ -100,8 +101,10 @@ function toggleArticle(artId){
    };
    if (orderList.length > 0){
       notice.classList.add("not-ordered");
+      slider.classList.remove("not-ordered");
    }
    else{
       notice.classList.remove("not-ordered");
+      slider.classList.add("not-ordered");
    };
 }
