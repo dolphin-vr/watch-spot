@@ -2,6 +2,14 @@
    padding-top: 40px;
    display: flex;
 }
+
+/* .anime{
+   display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+} */
+
 @media screen and (min-width: 768px) {
    .about-section {
       padding-top: 64px;
@@ -76,21 +84,29 @@
    }
 }
 .watch-about {
+<<<<<<< HEAD
    width: 335px;
    height: 300px;
    display: block;
    height: 365px;
    width: auto;
    object-fit: cover;
+=======
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+   /* width: 335px;
+   height: 300px; */
+>>>>>>> origin/modal-v52
 }
 @media screen and (min-width: 768px) {
-   .watch-about {
+   .anime {
       width: 704px;
       height: 465px;
    }
 }
 @media screen and (min-width: 1280px) {
-   .watch-about {
+   .anime {
       width: 915px;
       height: 520px;
       float: right;
