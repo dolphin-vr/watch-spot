@@ -240,11 +240,13 @@
       flex-direction: row;
       gap: 20px;
       align-items: flex-start;
+      border-radius: 4px;
    } 
 }
 @media screen and (min-width: 1280px) {
    .modal {
       width: 904px;
       gap: 40px;
+      border-radius: 8px;
    }
 }
