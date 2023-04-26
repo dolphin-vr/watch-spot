@@ -21,7 +21,6 @@
 
 .modal {
    padding: 40px 20px;
-   height: 100%;
    /* display: flex;
    flex-direction: column;
    gap: 40px; */
@@ -210,6 +209,13 @@ input:invalid:not(:placeholder-shown) {
    .modal {
        position: relative;
    }} */
+   /* @media screen and (max-width: 767px) {
+      .modal {
+          position: relative;
+          margin-left: auto;
+          margin-right: auto;
+      } */
+
 
 @media screen and (max-width: 374px) {
    .modal {
@@ -223,10 +229,12 @@ input:invalid:not(:placeholder-shown) {
 @media screen and (min-width: 375px) {
    .modal {
       width: 335px;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%) scale(1);
+      position: relative;
+      margin-left: auto;
+      margin-right: auto;
+      /* top: 50%;
+      left: 50%; */
+      /* transform: translate(-50%, -50%) scale(1); */
   }
   .backdrop.is-hidden .modal {
       transform: translate(-50%, -50%) scale(1.5);
@@ -244,8 +252,16 @@ input:invalid:not(:placeholder-shown) {
       gap: 20px;
       align-items: flex-start;
       border-radius: 4px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) scale(1);
+  }
+  .backdrop.is-hidden .modal {
+      transform: translate(-50%, -50%) scale(1.5);
+   }
    } 
-}
+
 @media screen and (min-width: 1280px) {
    .modal {
       width: 904px;
