@@ -16,7 +16,7 @@ position: relative;
 margin: 0 auto;
 top: 0;
 left: 0;
-width: 335px;
+width: 100%;
 height: 410px;
 /* border-radius: 10px; */
 transform-style: preserve-3d;
@@ -146,10 +146,13 @@ margin-bottom: 14px
    transform: translate(-50%, -50%);
 }
 
-.cart-btn:hover, .cart-btn:focus,
-.cart-btn-chk {
+.cart-btn:hover, .cart-btn:focus {
    fill: var(--gamboge);
-   /* fill-opacity: 0.5; */
+}
+.cart-btn-chk,
+.cart-btn-chk.cart-btn:focus{
+   fill: var(--cherry);
+   /* color: #ad1131; */
 }
 /* ---==== /added by dolphin ====--- */
 

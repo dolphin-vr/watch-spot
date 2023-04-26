@@ -81,10 +81,15 @@
    max-width: 276px;
    position: relative;
    margin-bottom: 40px;
+   flex-shrink: 0;
+}
+.cart .item{
+   padding-top: 26px;
 }
 .cart img{
    margin-left: auto;
    margin-right: auto;
+   margin-bottom: 40px;
 }
 .prev-btn, .next-btn{
    position: absolute;
@@ -208,6 +213,9 @@
       position: relative;
       max-width: 100%;
    }
+   .order-slider{
+      width: 100%;
+   }
 }
 @media screen and (min-width: 375px) {
    .modal {
@@ -219,6 +227,9 @@
   }
   .backdrop.is-hidden .modal {
       transform: translate(-50%, -50%) scale(1.5);
+   }
+   .order-slider{
+      max-width: 276px;
    }
 }
 @media screen and (min-width: 768px) {
