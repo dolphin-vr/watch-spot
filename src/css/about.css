@@ -1,18 +1,23 @@
 .about-section {
    padding-top: 40px;
-   padding-bottom: 80px;
    display: flex;
 }
+
+/* .anime{
+   display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+} */
+
 @media screen and (min-width: 768px) {
    .about-section {
       padding-top: 64px;
-      padding-bottom: 128px;
    }
 }
 @media screen and (min-width: 1200px) {
    .about-section {
       padding-top: 80px;
-      padding-bottom: 160px;
    }
 }
 .about-information {
@@ -34,17 +39,17 @@
    font-size: 32px;
    line-height: 1.25;
    letter-spacing: -0.02em;
-   padding-bottom: 40px;
+   margin-bottom: 40px;
 }
 @media screen and (min-width: 768px) {
    .about-title {
-      padding-right: 40px;
+      margin-right: 40px;
       white-space: nowrap;
    }
 }
 @media screen and (min-width: 1200px) {
    .about-title {
-      padding-right: 125px;
+      margin-right: 125px;
       width: auto;
       white-space: nowrap;
    }
@@ -54,7 +59,7 @@
    align-items: center;
    flex-direction: column;
    gap: 20px;
-   padding-bottom: 40px;
+   margin-bottom: 40px;
 }
 
 @media screen and (min-width: 768px) {
@@ -79,17 +84,20 @@
    }
 }
 .watch-about {
-   width: 335px;
-   height: 325px;
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+   /* width: 335px;
+   height: 300px; */
 }
 @media screen and (min-width: 768px) {
-   .watch-about {
+   .anime {
       width: 704px;
       height: 465px;
    }
 }
 @media screen and (min-width: 1280px) {
-   .watch-about {
+   .anime {
       width: 915px;
       height: 520px;
       float: right;

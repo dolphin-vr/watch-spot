@@ -47,6 +47,7 @@
     line-height: 1.33;
     letter-spacing: -0.02em;
     text-transform: uppercase;
+    margin-bottom: 16px;
 }
 
 .title-information::before {
@@ -101,15 +102,7 @@
     text-decoration-line: line-through;
     color: var(--grizzly);
 }
-.bigcard-2 {
-    display: none;
-}
-.bigcard-3 {
-    display: none;
-}
-.bigcard-4 {
-    display: none;
-}
+
 
 /* =====================media-tablet================== */
 @media screen and (min-width: 768px) {
@@ -134,6 +127,7 @@
         margin: auto;
         font-size: 38px;
         line-height: 1.05;
+        margin-bottom: 8px;
     }
 }
 
@@ -153,7 +147,7 @@
     .title-sale {
         width: 100%;
     }
-    
+
     .title-by-police,
     .by-police,
     .information {
@@ -162,5 +156,26 @@
 
     .gallery-sale {
         margin: 0;
+    }
+}
+
+/* ====== dolphin ======= */
+
+.dot {
+    cursor: pointer;
+}
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
     }
 }

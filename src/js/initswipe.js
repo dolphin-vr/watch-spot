@@ -20,10 +20,10 @@ let swiper = new Swiper(".mySwiper", {
   //   type: "fraction",
   // },
   navigation: {
-    // nextEl: ".next-btn",
-    // prevEl: ".prev-btn",
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+    nextEl: ".next-btn",
+    prevEl: ".prev-btn",
+    // nextEl: ".swiper-button-next",
+    // prevEl: ".swiper-button-prev",
   },
   grabCursor: true,
   keyboard: {
