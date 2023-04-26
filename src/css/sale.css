@@ -107,6 +107,15 @@
     text-decoration-line: line-through;
     color: var(--grizzly);
 }
+.bigcard-2 {
+    display: none;
+}
+.bigcard-3 {
+    display: none;
+}
+.bigcard-4 {
+    display: none;
+}
 
 /* =====================media-tablet================== */
 @media screen and (min-width: 768px) {
