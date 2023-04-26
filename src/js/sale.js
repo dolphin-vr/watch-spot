@@ -1,20 +1,10 @@
 
-let indexHorizontal = 1;
+// let indexHorizontal = 1;
 // showHorizontal(indexHorizontal);
-
-// Next/previous controls
-
-// function plusHorizontal(n) {
-//     showHorizontal(indexHorizontal += n);
-// }
-
-// Thumbnail image controls
-// window.currentSlide = function (n) {
+// function currentSlide(n) {
 //     showHorizontal(indexHorizontal = n);
 // }
-
-
-// window.showHorizontal = function (n) {
+// function showHorizontal(n) {
 //     let i;
 //     let slides = document.getElementsByClassName("slideHorizontal");
 //     let dots = document.getElementsByClassName("dot");
