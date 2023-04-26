@@ -10,7 +10,7 @@
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"> -->
     
     <script type="module" crossorigin src="/watch-spot/assets/index-817e156f.js"></script>
-    <link rel="stylesheet" href="/watch-spot/assets/index-953f9bd0.css">
+    <link rel="stylesheet" href="/watch-spot/assets/index-bab7fb26.css">
   </head>
   <body>
     <header class="header">
@@ -1021,7 +1021,7 @@
        <form name="order" autocomplete="on" class="order">
            <label class="form-label">
                <span class="order-label">Full name</span>
-               <input type="text" class="input" name="name" placeholder="Enter your full name" required pattern="^[A-Za-zÀ-ÿ ,.'-]+$">
+               <input type="text" class="input" name="name" id="name" placeholder="Enter your full name" required pattern="^[A-Za-zА-Яа-яІіЇїЄє\s]+$">
                <!-- <svg class="order-icon"><use href="./images/sprite.svg#user"></use></svg> -->
            </label>
            <label class="form-label">
@@ -1031,7 +1031,8 @@
            </label>
            <label class="form-label">
                <span class="order-label">Card number</span>
-               <input type="tel" class="input" name="ccn" placeholder="Enter card" required>
+               <input type="tel" class="input" name="ccn" placeholder="Enter card" required pattern="[0-9]{14,23}">
+               <!--  -->
                <!-- <svg class="order-icon"><use href="./images/sprite.svg#oldphone"></use></svg> -->
            </label>
            <label class="comment">
