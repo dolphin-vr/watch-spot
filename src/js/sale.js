@@ -6,7 +6,7 @@ showHorizontal(indexHorizontal);
 
 // function plusHorizontal(n) {
 //     showHorizontal(indexHorizontal += n);
-}
+// }
 
 // Thumbnail image controls
 window.currentSlide = function (n) {
