@@ -98,7 +98,6 @@ margin-bottom: 14px
 
 .catalog-cover-title {
    margin-bottom: 10px;
-   text-align: center;
    text-transform: uppercase;
    letter-spacing: -0.02em;
    color:var(--white);
@@ -124,7 +123,7 @@ margin-bottom: 14px
 }
 .cart-btn{
    position: absolute;
-   z-index: 77;
+   z-index: 1;
    top: 14px;
    right: 14px;
    width: 24px;
